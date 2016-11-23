@@ -6,7 +6,8 @@ import java.awt.event.KeyListener;
 /**
  * Created by Jack
  */
-public class Game implements KeyListener{
+public class Game{
+    MenuPanel mP;
     public Game() {
 
         JFrame gF = new JFrame();
@@ -14,26 +15,19 @@ public class Game implements KeyListener{
         gF.setSize(900, 600);
         gF.setDefaultCloseOperation(3);
         gF.setTitle("The Trader");
-        MenuPanel mP = new MenuPanel();
-        gF.add(mP);
+        mP = new MenuPanel();
+        gF.addKeyListener(mP);
+        gF.setContentPane(mP);
         gF.setLocationRelativeTo(null);
         gF.setVisible(true);
-    }
 
-
-    public void keyTyped(KeyEvent e) {
-        if(e.)
-    }
-
-    public void keyPressed(KeyEvent e) {
 
     }
 
-    public void keyReleased(KeyEvent e) {
-
-    }
 
     public static void main(String[] args) {
         new Game();
     }
+
+
 }
