@@ -38,20 +38,6 @@ public class MenuPanel extends JPanel implements KeyListener{
                 break;
             case 4: cY += 20;
                 break;
-
-            //this block is for diagonal movement *Semi-pointless
-//            case 5: cY += 20;
-//                    cX -= 20;
-//                break;
-//            case 6: cY += 20;
-//                    cX += 20;
-//                break;
-//            case 7: cY -= 20;
-//                    cX -= 20;
-//                break;
-//            case 8: cY -= 20;
-//                    cX += 20;
-//                break;
         }
     }
 
@@ -69,20 +55,7 @@ public class MenuPanel extends JPanel implements KeyListener{
             updateBall(3);
         }else if(e.getKeyChar() == 's'){
             updateBall(4);
-        }
-
-        //this block is for diagonal movement *Semi-Pointless
-//        else if(e.getKeyChar() == 's' && e.getKeyChar() == 'a'){
-//            updateBall(5);
-//        }else if(e.getKeyChar() == 's' && e.getKeyChar() == 'd'){
-//            updateBall(6);
-//        }else if(e.getKeyChar() == 'w' && e.getKeyChar() == 'a'){
-//            updateBall(7);
-//        }else if(e.getKeyChar() == 'w' && e.getKeyChar() == 'd'){
-//            updateBall(8);
-//        }
-
-        else{
+        }else{
             System.out.println("Wrong Button!");
         }
         repaint();
