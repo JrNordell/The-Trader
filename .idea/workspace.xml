@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64739e5-dcdc-4885-a0b0-47f57586aee1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game/src/Character.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/MenuPanel.java" afterPath="$PROJECT_DIR$/Game/src/MenuPanel.java" />
     </list>
     <ignored path="The-Trader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,49 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpaceSimulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Java/Program4/src/SpaceSimulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Java/Program4/src/MapPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="POVPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Java/Program4/src/POVPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpaceShip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Java/Program4/src/SpaceShip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1294#1295#0" expanded="false" />
-                <element signature="e#1370#1371#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ForestPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/src/ForestPanel.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/src/MenuPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="445">
@@ -95,6 +52,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game/src/Character.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,6 +92,7 @@
         <option value="$PROJECT_DIR$/Game/src/ForestPanel.java" />
         <option value="$PROJECT_DIR$/Game/src/Game.java" />
         <option value="$PROJECT_DIR$/Game/src/MenuPanel.java" />
+        <option value="$PROJECT_DIR$/Game/src/Character.java" />
       </list>
     </option>
   </component>
@@ -522,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479885651023</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed comments">
+      <created>1479948555645</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1479948555645</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -602,7 +577,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Setting up the GUI" />
     <MESSAGE value="Implemented the keylistener and can now move a ball around the screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the keylistener and can now move a ball around the screen" />
+    <MESSAGE value="Removed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Java/Breakout Game/src/edu/uwec/cs/nordeljr/program3/MovingComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Java/Breakout Game/src/edu/uwec/cs/nordeljr/program3/Level.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
@@ -876,6 +845,38 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Java/Breakout Game/src/edu/uwec/cs/nordeljr/program3/MovingComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Java/Breakout Game/src/edu/uwec/cs/nordeljr/program3/Brick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Java/Breakout Game/src/edu/uwec/cs/nordeljr/program3/BreakoutComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/src/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
